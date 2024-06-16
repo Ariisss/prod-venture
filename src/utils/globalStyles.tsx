@@ -1,6 +1,14 @@
 import { StyleSheet } from "react-native";
 
-export const globalStyles = StyleSheet.create({
+const colors = {
+    white: '#ffffff',
+    black: '#151515',
+    blue: '#2e9bff',
+    purple: '#af60ff',
+    red: '#ff5454'
+}
+
+const globalStyles = StyleSheet.create({
     centerView: {
         flex: 1,
         justifyContent: 'center',
@@ -21,3 +29,5 @@ export const globalStyles = StyleSheet.create({
         fontWeight: 'bold'
     }
 })
+
+export { colors, globalStyles }
